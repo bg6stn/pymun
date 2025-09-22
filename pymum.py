@@ -9,12 +9,12 @@ import queue
 import collections
 
 class MumbleClient:
-    def __init__(self, host, port=64738, username="PythonClient", password=""):
+    def __init__(self, host, port=64738, username="XXX", password=""):
         """初始化Mumble客户端"""
-        self.host = 'bg6stn.top'
+        self.host = 'XXX.com'
         self.port = 64738
         self.username = 'AAA'
-        self.password = 'hjc757'
+        self.password = ''
         
         # 初始化Mumble连接
         self.mumble = None
