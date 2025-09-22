@@ -70,7 +70,7 @@ class SimpleMumble:
 # 使用示例 - 无密码服务器
 if __name__ == "__main__":
     # 创建实例（密码为空）
-    mumble = SimpleMumble("bg6stn.top", "AAA", password="")
+    mumble = SimpleMumble("XXX.com", "AAA", password="")
     
     if mumble.start():
         # 发送消息
